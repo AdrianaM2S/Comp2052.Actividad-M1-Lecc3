@@ -1,0 +1,41 @@
+
+# GET /info
+GET http://127.0.0.1:5000/info
+Content-Type: application/json
+
+###
+
+# POST /create_user
+POST http://127.0.0.1:5000/create_user
+Content-Type: application/json
+
+{
+  "Id": 1,
+  "name": "Diana Sanchez",
+  "email": "dsanchezvalencia22@gmail.com"
+}
+
+###
+
+# GET /users
+GET http://127.0.0.1:5000/users
+Content-Type: application/json
+
+###
+
+#POST /create_product
+POST http://127.0.0.1:5000/create_product
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "name": " Desktop Computer",
+  "price": "$700",
+  "available": true
+}
+
+###
+
+# GET /products
+GET http://127.0.0.1:5000/products
+
