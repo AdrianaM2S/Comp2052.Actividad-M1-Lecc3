@@ -10,7 +10,7 @@ products = []
 @app.route("/info", methods=["GET"])
 def info():
     return jsonify({
-        "message": "Sistema de gestion de productos y usuarios"
+        "message": "Product and user management system."
     })
 
 # Route to POST /create_user
